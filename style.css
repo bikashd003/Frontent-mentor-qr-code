@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .attribution {
+    font-size: 13px;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+  }
+  
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+  body {
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .qr-outside {
+    background-color: rgb(224, 236, 250);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bebebe, 0 0 6px #ffffff;
+    max-width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+  
+  .qr {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 0.625rem;
+    max-width: 17rem;
+    padding: 1rem;
+    margin: 4rem 40rem 4rem;
+    position: relative;
+  }
+  
+  img {
+    width: 100%;
+    border-radius: 0.625rem;
+    max-height: 18rem;
+    max-width: 18rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    width: 100%;
+  }
+  
+  p {
+    font-size: 0.94rem;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .qr {
+      margin: 4rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width:1674px){
+    .qr{
+        margin: 4rem 10rem;
+        max-width: 17rem;
+    }
+  }
